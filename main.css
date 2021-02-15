@@ -1,0 +1,35 @@
+html{
+    background-color: rgb(110, 228, 222);
+}
+
+#main_title{
+    color:tan;
+    display:grid;
+    text-align: center;
+    font: Georgia, serif;
+    font-size: 4em;
+}
+
+#signup_title{
+    color:rgb(45, 48, 202);
+    display:grid;
+    text-align: center;
+    font: Georgia, serif;
+    font-size: 2em;
+}
+
+#sign_in{
+    text-align:center;
+    margin: 2em;
+}
+#signup{
+    display: grid;
+    text-align:center;
+    margin: 4em; 
+}
+
+
+.submit{
+    text-align: center;
+    margin: 3em;
+}

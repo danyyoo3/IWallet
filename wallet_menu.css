@@ -1,0 +1,16 @@
+#main_logo{
+    color: black;
+    display:grid;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+.wallets_menu{
+    overflow-y:auto;
+    width: auto;
+    height: auto;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
