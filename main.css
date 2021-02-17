@@ -33,3 +33,7 @@ html{
     text-align: center;
     margin: 3em;
 }
+
+input.ng-invalid {
+    background-color: lightblue;
+}

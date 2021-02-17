@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset = "utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="main.css">
@@ -38,6 +39,11 @@
     <div style="text-align: center;">
     <p>Haven't signed up? <a href="signedup.html" style="color: blue;">Sign Up</a></p>
     </div>
+    
+    <div ng-app="" ng-init="mycolor=lightblue">
+        <input style="background-color: {{mycolor}}" ng-model="mycolor">
+    </div>
+    
 
 
 
